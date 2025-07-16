@@ -2,6 +2,7 @@ import openai
 from django.conf import settings
 from typing import List, Dict
 import logging
+import os
 
 logger = logging.getLogger(__name__)
 
